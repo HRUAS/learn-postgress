@@ -50,7 +50,7 @@ SELECT id, first_name, last_name FROM customers ORDER BY last_name, first_name L
 **Sort orders by customer_id, then by total_amount descending**
 
 ```sql
-SELECT id, customer_id, total_amount FROM orders ORDER BY customer_id, total_amount DESC LIMIT 20;
+SELECT id, customer_id, total_amount FROM orders ORDER BY customer_id asc, total_amount DESC LIMIT 20;
 ```
 
 ---
